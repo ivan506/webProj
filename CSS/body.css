@@ -1,0 +1,30 @@
+body {
+
+    background-image:  url("https://cdn.wallpapersafari.com/36/19/0S9OTt.gif");
+}
+
+p {
+    font-family: "Times New Roman", Times, serif; 
+    text-align:center; 
+    color:red; 
+    font-size: 150px;
+    line-height: 140%; 
+  animation: textwelle 2s;
+}
+
+
+@keyframes textwelle {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }  
+    70% {
+      transform: scale(1.25);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;	
+    }
+   
+  }

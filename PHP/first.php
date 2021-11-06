@@ -11,11 +11,11 @@ Signin($benutzername, $passwort);
 
 function Signin($benutzername, $passwort)
 {
-    include "webaccass.php";
+    include "webaccess.php";
     if ($benutzername == $toCompareName && $passwort == $toComparePW) {
         header("location: ./../HTML/chat.html");
     } else {
-        echo "Login fail !";
+        header("location: ./../HTML/fail.html");
     }
 }
 

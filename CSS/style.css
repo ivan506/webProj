@@ -293,110 +293,159 @@ form  {
 }
 
 
-
-
-
-
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: aqua;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color:#AED6F1 ;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-
-
-
-.navigation{
-
-  height:100%;
-  width:11%; 
-  background-color: #AED6F1 ;
-  text-align:center;
-  color: #fff;
-  padding: 7px 0px 0px 10px;
-  border-radius: 0%;
-  
-
-}
-
-
-
-.press {
-  padding-right: 15%;
-  margin-top: 15%;
-  font-family: "Helvetica", Times, serif; 
-  text-align:center; 
-  color:black; 
-  font-size: 15px;
-  line-height: 150%; 
-
-}
-
-.pass a {
-
-  font-size: 14px;
-  font-family: "Helvetica";
-  color: #000000;
-}
-
-
 ul, li {
 
   list-style: none;
 }
 
 
+
+
+
+
+
+
+
+
+  
+  .navbar {
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+    
+    .dropdown .dropbtn {
+      font-size: 16px;  
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+    
+    .navbar a:hover, .dropdown:hover .dropbtn {
+      background-color: aqua;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown-content a:hover {
+      background-color:#AED6F1 ;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+
+    
+    
+    
+    
+    .navigation{
+    
+      height:150%;
+      width:12.5%; 
+      background: url("https://www.icegif.com/wp-content/uploads/icegif-3384.gif") ;
+      text-align:center;
+      padding: 7px 0px 0px 10px;
+      border-radius: 0%;
+      
+      
+    
+    }
+    
+    
+    
+    .press {
+      padding-right: 15%;
+      margin-top: 15%;
+      font-family: "Helvetica", Times, serif; 
+      text-align:center; 
+      color:black; 
+      font-size: 20px;
+      line-height: 150%; 
+      
+    
+    }
+    
+    .pass a {
+    
+      font-size: 14px;
+      font-family: "Helvetica";
+      color: #000000;
+    }
+    
+    
+    ul, li {
+    
+      list-style: none;
+    }
+  
+    nav { height: 200%; width: 100%; float:central; text-align: center;}
+  
+  nav a {
+      display: block;
+      padding: 0.8em;
+      text-decoration: none; 
+      font-weight: bold;
+      border: 0px solid white;
+      border-radius: 0px;
+      box-shadow: 0 0px 0px white inset;
+      color:white; 
+      background-color: 0 ; 
+      transition: all .25s ease-in;	  
+    
+    }
+  
+  nav li[aria-current] a {
+    background-color: wheat; 
+    color:0 ;
+  }
+    
+    nav a:focus,
+    nav a:hover,
+    nav li[aria-current] a:focus,
+    nav li[aria-current] a:hover {    
+      color: 0 ; 
+      background-color: 0;
+    }
+  
+  
+  
+    
+  a:hover  {
+      color:white ;
+    }
+  
