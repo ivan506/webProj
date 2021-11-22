@@ -12,9 +12,6 @@
 
 <body>
 
-
-
-
     <div id="log">
 
         <form class="ivan" action="first.php" method="post">
@@ -31,12 +28,6 @@
         </form>
 
     </div>
-
-
-
-
-
-
 
 </body>
 
