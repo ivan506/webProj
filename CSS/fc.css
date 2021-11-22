@@ -108,18 +108,28 @@ form  {
     .dropdown:hover .dropdown-content {
       display: block;
     }
-
-    .navigation{
     
+    .navigation{
+      
       height:150%;
-      width:12.5%; 
+      width: 100%; 
       background: url("https://www.icegif.com/wp-content/uploads/icegif-3384.gif") ;
       text-align:center;
       padding: 7px 0px 0px 10px;
       border-radius: 0%;
       
-      
+    }
     
+    
+    @media screen and (min-width: 600px) {
+      .navigation {
+        height:150%;
+        width:30%; 
+        background: url("https://www.icegif.com/wp-content/uploads/icegif-3384.gif") ;
+        text-align:center;
+        padding: 7px 0px 0px 10px;
+        border-radius: 0%;
+      }
     }
     
     

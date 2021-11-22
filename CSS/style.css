@@ -6,7 +6,8 @@ body {
 }
 
 header {
-  height: 6%;
+  height: 10%;
+  width: 100%;
   background-color:#273746 ;
 }
 
@@ -64,8 +65,6 @@ nav li[aria-current] a {
     background-color: 0;
   }
 video  {padding-left: 30%;}
-
-  img {padding-left: 30%;}
   
   a  {
      
@@ -120,6 +119,11 @@ body {
     }
 }
 
+
+
+
+
+/*index.html--content-element-train-train2-box...................................................................................*/
 .content {
 margin-top: 10%;
 }
@@ -127,14 +131,13 @@ margin-top: 10%;
 .element {
   margin-top: 7%;
   margin-left: -10%;
-  height: 1000px;
-  width: 1000px;
+  max-height: 60%;
+  max-width: 60%;
   background-color: blue;
   animation: 
     pulse 10s ease infinite alternate, 
     nudge 5s linear infinite alternate;
   border-radius: 100%;
-  float:left;
 }
 
 @keyframes pulse {
@@ -150,7 +153,24 @@ margin-top: 10%;
   }
 }
 
+@media screen and (max-width: 600px) {
 
+  .train {
+
+    font-size: 400%;
+    width: 20%;
+    padding-top: 38%;
+    padding-left: 35%; 
+    
+  }
+  
+  .train2 {
+  
+    font-size: 70%;
+  
+    
+  }
+}
 
 .train {
 
@@ -160,7 +180,6 @@ margin-top: 10%;
   padding-left: 35%; 
   
 }
-
 
 .train2 {
 
@@ -174,21 +193,31 @@ margin-top: 10%;
 .box {
   font-family: "Times New Roman", Times, serif;
   font-size: 100%; 
- padding-left: 30%;
- line-height: 50px;
+  line-height: 50px;
+}
+/*...End.....................................................................................................*/
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5%;
+}
+
+.burgermenuIcon {
+  width: 100%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: flex-end;
+  float: right;
 }
 
 img {
-
-  padding-left: 98%;
-  padding-top: 0.5%;
-  
+  padding-right: 5%;
 }
 
 .pic {
 
-  
-  margin-top: -2%;
+  float: left;
   padding-left: 1%;
   color: white;
   font-size: 250%;
@@ -238,52 +267,14 @@ animation: textwelle 3s;
 
 .text {
 
-  width: 600px;
-  height: 800px;
-  margin-top: 5%;
-  margin-left: 35%;
   text-align: center;
 
 }
 
 
-#log  {
- 
-  height:500px;
-  width:450px; 
-  background-color:skyblue;
-  text-align:center;
-  margin-top: 15%;
-  margin-left: 40%;
-  color: #fff;
-  padding: 7px 0px 0px 10px;
-  border-radius: 20%;
-  
-}
 
 
-#log .ivan a {
 
-
-  color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-
-}
-
-
-form  {
-
-  margin-top: 35%;
-  
-}
-
-
-ul, li {
-
-  list-style: none;
-}
-    
     ul, li {
     
       list-style: none;
@@ -325,20 +316,36 @@ ul, li {
       color:white ;
     }
 
-    article {
-      min-height: 100%;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*index.html--site-footer.........................................................................................*/
+    
+    #site-footer {
       display: flex;
-      flex-direction: column;
-      align-items: stretch;
-  }
-  
-  main {
-      flex-grow: 1;
-  }
-  
-  header, main, footer {
-      flex-shrink: 0;
-  }
-  
-  
+      justify-content: space-between;
+      padding: 25px 0;
+      font-size: 85%;
+      background-color: #2A2A2A;
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
 
+    #site-footer ul li  {
+      color: white;
+      font-size: 0px;
+      padding-right: 5%;
+      margin-top: 3%;
+      
+    }
+   
+
+    /*..End.........................................................................................*/
