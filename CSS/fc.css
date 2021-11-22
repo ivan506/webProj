@@ -19,7 +19,7 @@
   
 
 #log  {
- 
+
   height:500px;
   width:450px; 
   background-color:skyblue;
@@ -28,8 +28,7 @@
   margin-left: 40%;
   color: #fff;
   padding: 7px 0px 0px 10px;
-  border-radius: 20%;
-  
+  border-radius: 20%; 
 }
 
 
